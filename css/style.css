@@ -1,0 +1,47 @@
+/*
+	Name:			Smashing HTML5
+	Description:	Sample layout for HTML5 and CSS3 goodness.
+	Author:			Nazion Linux
+	Version:		1.0
+	Site:			http://nazionlinux.com
+	Date:			20 April 2013
+	Copyleft:	
+*/
+ 
+/* Imports */
+@import url("reset.css");
+@import url("typography.css");
+ 
+/***** Global *****/
+/* Body */
+
+
+/*****************
+	Header
+*****************/
+#header{
+	color:#fff;
+	background-color:#009;
+	padding:.5em;
+}
+
+/*****************
+	Footer
+*****************/
+#copyleft{
+	color:#fff;
+	background-color:#900;
+	padding:.5em;
+}
+
+/*****************
+	Colonna DX
+*****************/
+#colonna-dx{
+	float:right;
+	width:340px;
+	color:#fff;
+	background-color:#006900;
+	padding:.5em;
+	border:1px solid #000;
+}
