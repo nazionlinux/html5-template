@@ -74,7 +74,7 @@
 		</section>
 
 		<footer id="copyleft">
-			<p>Copyright 2009 Your name <a href="#">HTML5 in Smashing Magazine!</a></p>
+			<p>Copyright 2009 Your name <a href="#">HTML5 Template</a></p>
 		</footer>
 	</body>
 </html>
