@@ -2,6 +2,8 @@
 <html lang="it">
 	<head>
 		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<title>Your Website</title>
 
@@ -12,6 +14,13 @@
 
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="scr/html5shiv.min.js"></script>
+			<script src="scr/respond.min.js"></script>
+		<![endif]-->
+
 	</head>
 	<body>
 		<header id="header">
@@ -21,10 +30,50 @@
 			</hgroup>
 		</header>
 
+		<nav>
+			<ul>
+				<li><a href="" title="">Link</a></li>
+				<li><a href="" title="">Link</a></li>
+				<li><a href="" title="">Link</a></li>
+				<li><a href="" title="">Link</a></li>
+				<li><a href="" title="">Link</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<section>
+				<p>Content, which might include headings, paragraphs, article elements each with a header and footer if desired and other material such as figure and figcaption or form elements.</p>
+			</section>
+	
+			<section>
+				<article>
+					<header>
+						<h3>Article title</h3>
+						<p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
+					</header>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+					<footer>
+						<p>Autore: <a href="#">nazionlinux</a></p>
+					</footer>
+				</article>
+			
+				<article>
+					<header>
+						<h3>Article title</h3>
+						<p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
+					</header>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+					<footer>
+						<p>Autore: <a href="#">nazionlinux</a></p>
+					</footer>
+				</article>
+			</section>
+		</main>
+
 		<aside id="colonna-dx">
 			<article>
 				<figure>
-					<img src="img/logo/sm-logo.gif" alt="Smashing Magazine" />
+					<img src="img/image.png" alt="image" />
 				</figure>
 				<hgroup>
 					<h4>Featured Article</h4>
@@ -37,44 +86,8 @@
 			</article>
 		</aside>
 
-		<nav>
-			<ul>
-				<li><a href="" title="">Link</a></li>
-				<li><a href="" title="">Link</a></li>
-				<li><a href="" title="">Link</a></li>
-				<li><a href="" title="">Link</a></li>
-				<li><a href="" title="">Link</a></li>
-			</ul>
-		</nav>
-
-		<section>Content, which might include headings, paragraphs, article elements each with a header and footer if desired and other material such as figure and figcaption or form elements.</section>
-
-		<section>
-			<article>
-				<header>
-					<h3>Article title</h3>
-					<p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
-				</header>
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-				<footer>
-					<p>Autore: <a href="#">HTML5 in Smashing Magazine!</a></p>
-				</footer>
-			</article>
-		
-			<article>
-				<header>
-					<h3>Article title</h3>
-					<p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
-				</header>
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-				<footer>
-					<p>Autore: <a href="#">HTML5 in Smashing Magazine!</a></p>
-				</footer>
-			</article>
-		</section>
-
 		<footer id="copyleft">
-			<p>Copyright 2009 Your name <a href="#">HTML5 Template</a></p>
+			<p>Copyright 2015 &copy; Your name <a href="#">HTML5 Template</a></p>
 		</footer>
 	</body>
 </html>
