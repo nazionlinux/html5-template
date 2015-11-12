@@ -10,6 +10,7 @@
 		<!-- CSS
 		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 		<link rel="stylesheet" type="text/css" href="css/normalize.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 
 		<!-- FAVICONS
@@ -37,7 +38,7 @@
 
 		<nav id="navbar" role="navigation">
 			<ul>
-				<li><a href="" title="">Link</a></li>
+				<li><a href="" title=""><i class="fa fa-home fa-fw"></i> Link</a></li>
 				<li><a href="" title="">Link</a></li>
 				<li><a href="" title="">Link</a></li>
 				<li><a href="" title="">Link</a></li>
