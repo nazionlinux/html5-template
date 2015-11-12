@@ -1,6 +1,6 @@
 /*
-	Name:			Smashing HTML5
-	Description:	Sample layout for HTML5 and CSS3 goodness.
+	Name:			HTML5 Template
+	Description:		Sample layout for HTML5 and CSS3 goodness.
 	Author:			Nazion Linux
 	Version:		1.0
 	Site:			http://nazionlinux.com
@@ -9,9 +9,9 @@
 */
  
 /* Imports */
-@import url("reset.css");
-@import url("typography.css");
- 
+/*@import url("normalize.min.css");
+@import url("typography.css");*/
+
 /***** Global *****/
 /* Body */
 
@@ -35,13 +35,6 @@
 }
 
 /*****************
-	Colonna DX
+	Aside
 *****************/
-#colonna-dx{
-	float:right;
-	width:340px;
-	color:#fff;
-	background-color:#006900;
-	padding:.5em;
-	border:1px solid #000;
-}
+
