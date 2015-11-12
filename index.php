@@ -2,17 +2,22 @@
 <html lang="it">
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 		<title>Your Website</title>
 
+		<!-- CSS
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link rel="stylesheet" type="text/css" href="css/normalize.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+		<!-- FAVICONS
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 		<link rel="icon" type="image/png" href="./favicon.png" />
 		<!-- Internet Explore 5.5, 6 & 7 does NOT support PNG, GIF and JPEG type icons, only ICO files -->
 		<!--[if IE]><link rel="shortcut icon" href="./favicon.ico" /><![endif]-->
 		<link rel="apple-touch-icon" href="./apple-touch-icon.png">
-
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,7 +35,7 @@
 			</hgroup>
 		</header>
 
-		<nav>
+		<nav id="navbar" role="navigation">
 			<ul>
 				<li><a href="" title="">Link</a></li>
 				<li><a href="" title="">Link</a></li>
@@ -40,7 +45,8 @@
 			</ul>
 		</nav>
 
-		<main>
+		<main id="main" role="main">
+
 			<section>
 				<p>Content, which might include headings, paragraphs, article elements each with a header and footer if desired and other material such as figure and figcaption or form elements.</p>
 			</section>
@@ -70,24 +76,24 @@
 			</section>
 		</main>
 
-		<aside id="colonna-dx">
+		<aside id="sidebar" role="complementary">
 			<article>
 				<figure>
 					<img src="img/image.png" alt="image" />
 				</figure>
 				<hgroup>
 					<h4>Featured Article</h4>
-					<h5><a href="#">HTML5 in Smashing Magazine!</a></h5>
+					<h5><a href="#">HTML5 Template</a></h5>
 				</hgroup>
 				<p>secondary content</p>
 				<footer>
-					<p>Autore: <a href="#">HTML5 in Smashing Magazine!</a></p>
+					<p>Autore: <a href="#">nazionlinux</a></p>
 				</footer>
 			</article>
 		</aside>
 
 		<footer id="copyleft">
-			<p>Copyright 2015 &copy; Your name <a href="#">HTML5 Template</a></p>
+			<p>Copyright 2015 &copy; Your name <a href="#">nazionlinux</a></p>
 		</footer>
 	</body>
 </html>
