@@ -51,7 +51,7 @@
 			<section>
 				<p>Content, which might include headings, paragraphs, article elements each with a header and footer if desired and other material such as figure and figcaption or form elements.</p>
 			</section>
-	
+
 			<section>
 				<article>
 					<header>
@@ -63,7 +63,7 @@
 						<p>Autore: <a href="#">nazionlinux</a></p>
 					</footer>
 				</article>
-			
+
 				<article>
 					<header>
 						<h3>Article title</h3>
@@ -75,6 +75,7 @@
 					</footer>
 				</article>
 			</section>
+
 		</main>
 
 		<aside id="sidebar" role="complementary">
@@ -93,8 +94,8 @@
 			</article>
 		</aside>
 
-		<footer id="copyleft">
-			<p>Copyright 2015 &copy; Your name <a href="#">nazionlinux</a></p>
+		<footer id="copyleft" role="contentinfo">
+			<p>Copyright <time datetime="2015">2015</time> &copy; Your name <a href="#">nazionlinux</a></p>
 		</footer>
 	</body>
 </html>
