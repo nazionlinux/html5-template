@@ -5,15 +5,60 @@
 	Version:		1.0
 	Site:			http://nazionlinux.com
 	Date:			20 April 2013
-	Copyleft:	
+	Copyleft:
 */
- 
+
 /* Imports */
 /*@import url("normalize.min.css");
 @import url("typography.css");
 @import url("font-awesome.min.css");*/
 
 /***** Global *****/
+*, *:before, *:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.responsive-fill{
+	width: 100%;
+	height: auto;
+	/* Needed for mobile */
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.responsive-shrink{
+	max-width: 100%;
+	height: auto;
+	/* Needed for mobile */
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.video{
+	position: relative;
+	padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+	height: 0;
+	overflow: hidden;
+}
+
+.video IFRAME,
+.video OBJECT,
+.video EMBED{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+ARTICLE IFRAME,
+ARTICLE OBJECT,
+ARTICLE EMBED{
+	width: 100%;
+}
 
 /*****************
 	Body
@@ -41,4 +86,3 @@
 /*****************
 	Aside
 *****************/
-
