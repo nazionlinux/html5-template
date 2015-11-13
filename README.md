@@ -23,10 +23,12 @@ Choose one of the following options:
     favicon.ico
     favicon.png
     apple-touch-icon.png
-    Readme.md                     
+    README.md                     
+    LICENSE.md
     css/  
       - style.css                   // CSS main file
       - normalize.css               // for CSS normalizations and common bug fixes
+      - font-awesome.min.css
     fonts/                          // storing web fonts
       - FontAwesome.otf
       - fontawesome-webfont.eot
