@@ -38,3 +38,8 @@ Choose one of the following options:
     scr/
       - html5shiv.min.js            // for IE8 support of HTML5 elements
       - respond.min.js              // for IE8 support of media queries
+
+
+## License
+
+The code is available under the [GPL 3](LICENSE.md).
