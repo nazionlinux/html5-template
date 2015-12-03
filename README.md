@@ -11,7 +11,7 @@ Choose one of the following options:
 
 1. Download the latest stable release from
    [https://github.com/nazionlinux/html5-template/](https://github.com/nazionlinux/html5-template/archive/master.zip)
-2. Clone the git repo — `git clone
+2. Clone the git repo - `git clone
    https://github.com/nazionlinux/html5-template.git` - and checkout the
    [tagged release](https://github.com/nazionlinux/html5-template/releases)
    you'd like to use.
